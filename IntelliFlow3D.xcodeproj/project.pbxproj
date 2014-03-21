@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00AE50BE18DCD34400020A66 /* png in Resources */ = {isa = PBXBuildFile; fileRef = 00AE50BD18DCD34400020A66 /* png */; };
 		00E6CA9718DC86AB0062214A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E6CA9618DC86AB0062214A /* Foundation.framework */; };
 		00E6CA9918DC86AB0062214A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E6CA9818DC86AB0062214A /* CoreGraphics.framework */; };
 		00E6CA9B18DC86AB0062214A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E6CA9A18DC86AB0062214A /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00AE50BD18DCD34400020A66 /* png */ = {isa = PBXFileReference; lastKnownFileType = folder; path = png; sourceTree = "<group>"; };
 		00E6CA9318DC86AB0062214A /* IntelliFlow3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelliFlow3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E6CA9618DC86AB0062214A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00E6CA9818DC86AB0062214A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +114,7 @@
 		00E6CA9C18DC86AB0062214A /* IntelliFlow3D */ = {
 			isa = PBXGroup;
 			children = (
+				00AE50BD18DCD34400020A66 /* png */,
 				00E6CAA518DC86AB0062214A /* AppDelegate.h */,
 				00E6CAA618DC86AB0062214A /* AppDelegate.m */,
 				00E6CAA818DC86AB0062214A /* Main.storyboard */,
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AE50BE18DCD34400020A66 /* png in Resources */,
 				00E6CAAF18DC86AB0062214A /* Images.xcassets in Resources */,
 				00E6CAA118DC86AB0062214A /* InfoPlist.strings in Resources */,
 				00E6CAAA18DC86AB0062214A /* Main.storyboard in Resources */,
@@ -462,6 +466,7 @@
 				00E6CAC718DC86AB0062214A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00E6CAC818DC86AB0062214A /* Build configuration list for PBXNativeTarget "IntelliFlow3DTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +475,7 @@
 				00E6CACA18DC86AB0062214A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
